@@ -1,0 +1,81 @@
+.widgetTwo{
+    flex: 3;
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,1);
+    padding: 20px;
+    
+}
+
+.twoTitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.approvalTable{
+    width: 100%;
+    border-spacing: 20px;
+    border: #555;
+    border-color: darkgrey;
+}
+
+.approvalTr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:20px 0px;
+    
+}
+
+.approvalDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name{
+    font-weight: 600;  
+    justify-content: space-between;
+}
+
+.title{
+    font-weight: 300;
+}
+
+.eid{
+    font-weight: 300;
+}
+
+.emailID{
+    font-weight: 300;
+}
+
+.mobileNumber{
+    font-weight: 300;
+}
+
+.approveButton{
+    display: flex;
+    align-items: center;
+    border:none;
+    border-radius: 10px;
+    padding: auto;
+    background-color: #eeeef7;
+    color: #555;
+    cursor: pointer;
+}
+
+.rejectButton{
+    display: flex;
+    align-items: center;
+    border:none;
+    border-radius: 10px;
+    padding: auto;
+    background-color: #eeeef7;
+    color: #555;
+    cursor: pointer;
+}
+
+.visibilityIcon{
+    font-size: 16 !important;
+    margin-right: 5px;
+}
